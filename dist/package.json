@@ -1,6 +1,6 @@
 {
   "name": "taskbox-teste-subir-npm",
-  "version": "0.1.1",
+  "version": "0.1.4",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
@@ -19,8 +19,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 -s public",
-    "build-storybook": "build-storybook -s public",
-    "publish": "cd dist && npm publish"
+    "build-storybook": "build-storybook -s public"
   },
   "eslintConfig": {
     "extends": [

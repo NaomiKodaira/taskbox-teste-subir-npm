@@ -10,7 +10,7 @@ import styled from 'styled-components';
   color: var(--white);
 `;
 
-export const Button = ({ primary, backgroundColor, size, label, ...props }) => {
+function Button({ primary, backgroundColor, size, label, ...props }) {
   const mode = primary ? 'storybook-button--primary' : 'storybook-button--secondary';
   return (
     <ButtonStyled
@@ -23,6 +23,8 @@ export const Button = ({ primary, backgroundColor, size, label, ...props }) => {
     </ButtonStyled>
   );
 };
+
+export default Button
 
 Button.propTypes = {
   /**
